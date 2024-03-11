@@ -16,32 +16,32 @@
 
 # класс FileManager методы:
 
-- `def __init__(self, base_folder: str) - конструктор класса
-- `def create_file(self, new_filename: str, content: str) - создание файла
-- `def copy_file(self, source_filename: str, destination_filename: str) - копирование файла
-- `def delete_file(self, delete: str) - удаление файла
-- `def move_file(self, file: str, target_folder: str) - перемещение файла
-- `def backup_files(self, files: List[str], folder: str) - резервное копирование файлов
-- `def manage_file_permissions(self, file: str, access_choice: str) - управление правами доступа файла
-- `def edit_file_content(self, file_edit: str, updated_content: str) - поменять содержимое файла
-- `def file_info(self, file_inspect: str) - узнать информацию о файле
+- `def __init__(self, base_folder: str)` - конструктор класса
+- `def create_file(self, new_filename: str, content: str)` - создание файла
+- `def copy_file(self, source_filename: str, destination_filename: str)` - копирование файла
+- `def delete_file(self, delete: str)` - удаление файла
+- `def move_file(self, file: str, target_folder: str)` - перемещение файла
+- `def backup_files(self, files: List[str], folder: str)` - резервное копирование файлов
+- `def manage_file_permissions(self, file: str, access_choice: str)` - управление правами доступа файла
+- `def edit_file_content(self, file_edit: str, updated_content: str)` - поменять содержимое файла
+- `def file_info(self, file_inspect: str)` - узнать информацию о файле
 
 
 # класс Folder методы:
 
-- `def __init__(self, base_folder: str) - конструктор класса
-- `def get_full_path(self, filename: str) - узнать полный путь
-- `def set_base_folder(self, base_folder: str) - установить базовую папку
-- `def change_base_folder(self, new_folder: str) - поменять базовую папку
+- `def __init__(self, base_folder: str)` - конструктор класса
+- `def get_full_path(self, filename: str)` - узнать полный путь
+- `def set_base_folder(self, base_folder: str)` - установить базовую папку
+- `def change_base_folder(self, new_folder: str)` - поменять базовую папку
 
 # класс Disk методы:
 
-- `def move_to_another_disk(self, source_file2: str, destination_disks: str) - переместить на другой диск
+- `def move_to_another_disk(self, source_file2: str, destination_disks: str)` - переместить на другой диск
 
 # класс ArchiveManager методы:
 
-- `def archive_files(self, files_for_archiving: List[str], archive_name: str) - архивировать файлы
-- `def extract_archive(self, archive_name: str, folder: str) - разархивировать файлы
+- `def archive_files(self, files_for_archiving: List[str], archive_name: str)` - архивировать файлы
+- `def extract_archive(self, archive_name: str, folder: str)` - разархивировать файлы
 
  
 ## Тестирование:
