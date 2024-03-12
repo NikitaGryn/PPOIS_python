@@ -43,7 +43,7 @@
 - `def archive_files(self, files_for_archiving: List[str], archive_name: str)` - архивировать файлы
 - `def extract_archive(self, archive_name: str, folder: str)` - разархивировать файлы
 
-#Меню
+# Меню
 
 на основе всех методов получаемое такой функционал
 
