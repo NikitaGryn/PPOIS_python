@@ -43,7 +43,11 @@
 - `def archive_files(self, files_for_archiving: List[str], archive_name: str)` - архивировать файлы
 - `def extract_archive(self, archive_name: str, folder: str)` - разархивировать файлы
 
- 
+## Диаграмма классов
+На основе выделенных сущностей и состояний созданы следующие классы:
+
+![image_2024-03-11_14-33-04](https://github.com/NikitaGryn/PPOIS_python/assets/114168438/36ff1df1-253f-4956-ba59-c5859f3315a9)
+
 ## Тестирование:
 Программа успешно прошла unit-тестирование:
 
