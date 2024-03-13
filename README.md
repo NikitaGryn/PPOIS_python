@@ -55,6 +55,11 @@
 
 ![image_2024-03-11_14-33-04](https://github.com/NikitaGryn/PPOIS_python/assets/114168438/36ff1df1-253f-4956-ba59-c5859f3315a9)
 
+## Диаграмма состояний
+
+![2024-03-13_13-36-14](https://github.com/NikitaGryn/PPOIS_python/assets/114168438/f82f6761-abac-4c88-a28c-e6f26797401a)
+
+
 ## Тестирование:
 Программа успешно прошла unit-тестирование:
 
